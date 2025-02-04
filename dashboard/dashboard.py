@@ -167,7 +167,7 @@ def create_rfm_df (df):
     return rfm_df
 
 # load berkas yang dibutuhkan
-all_df = pd.read_csv("all_df.csv")
+all_df = pd.read_csv("dashboard/all_df.csv")
 
 # Memastikan data dalam bentuk tipe data datetime
 datetime_columns = ["order_purchase_timestamp", "review_creation_date"]
